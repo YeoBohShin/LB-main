@@ -5,7 +5,7 @@ export default function EventsHomePage() {
   return (
     <div className="flex flex-col xl:flex-row xl:min-h-screen text-center mx-5 items-center justify-start text-white">
       <motion.div
-        className="text-base-content bg-base-200 z-10 p-10 rounded-4xl shadow-lg relative flex flex-col justify-center items-center mt-5 xl:mt-0 xl:absolute xl:top-13/5 xl:right-1/7 max-w-md"
+        className="text-base-content bg-base-200 z-10 p-10 rounded-4xl shadow-lg relative flex flex-col justify-center items-center mt-5 xl:mt-0 xl:absolute xl:top-10/4 xl:right-1/7 max-w-md"
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.3 }}
