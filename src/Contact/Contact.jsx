@@ -50,7 +50,7 @@ export default function Contact() {
           </div>
         </div>
         <img
-          src="/Contact.jpg"
+          src="./Contact.jpg"
           alt="Contact Us"
           className="h-150 m-15 mt-5 rounded-4xl"
         />

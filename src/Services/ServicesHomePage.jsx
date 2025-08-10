@@ -25,7 +25,7 @@ export default function ServicesHomePage() {
         transition={{ type: "spring", stiffness: 50, damping: 20, duration: 0.8 }}
         >
       <img
-        src="/ParkedCar.jpg"
+        src="./ParkedCar.jpg"
         alt="Services"
         className="w-full h-auto rounded-4xl shadow-lg"
       />

@@ -28,7 +28,7 @@ export default function EventsHomePage() {
       >
         <div className="w-full rounded-4xl max-w-4xl xl:m-15">
           <img
-            src="/LeftCar.jpg"
+            src="./LeftCar.jpg"
             alt="Events"
             className="w-full h-full object-cover rounded-4xl"
           />

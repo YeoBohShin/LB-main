@@ -1,15 +1,15 @@
 import { useState, useRef, useEffect } from "react";
 
 const logos = [
-  { src: "/AirShow.jpg", alt: "Singapore Airshow" },
-  { src: "/IMDEX.jpg", alt: "IMDEX" },
-  { src: "/F1.jpg", alt: "Formula 1" },
-  { src: "/Golf.jpg", alt: "Golf" },
-  { src: "/SG_Water_Week.jpg", alt: "Singapore Water Week" },
-  { src: "/WorldHealthSummit.jpg", alt: "World Health Summit" },
-  { src: "/EnergyWeek.jpg", alt: "Energy Week" },
-  { src: "/MediaCorp.jpg", alt: "MediaCorp" },
-  { src: "/DBAccessAsia.jpeg", alt: "DB Access Asia" },
+  { src: "./AirShow.jpg", alt: "Singapore Airshow" },
+  { src: "./IMDEX.jpg", alt: "IMDEX" },
+  { src: "./F1.jpg", alt: "Formula 1" },
+  { src: "./Golf.jpg", alt: "Golf" },
+  { src: "./SG_Water_Week.jpg", alt: "Singapore Water Week" },
+  { src: "./WorldHealthSummit.jpg", alt: "World Health Summit" },
+  { src: "./EnergyWeek.jpg", alt: "Energy Week" },
+  { src: "./MediaCorp.jpg", alt: "MediaCorp" },
+  { src: "./DBAccessAsia.jpeg", alt: "DB Access Asia" },
 ];
 
 export default function Carousel() {

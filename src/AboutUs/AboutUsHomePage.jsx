@@ -27,7 +27,7 @@ export default function AboutUsHomePage() {
             transition={{ type: "spring", stiffness: 50, damping: 20, duration: 0.8 }}
         >
             <img
-                src="/CircleParkedCar.jpg"
+                src="./CircleParkedCar.jpg"
                 alt="About Us"
                 className="w-full h-auto rounded-4xl shadow-lg"
             />

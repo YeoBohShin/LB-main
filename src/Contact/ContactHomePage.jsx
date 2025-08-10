@@ -12,7 +12,7 @@ export default function ContactHomePage() {
         transition={{ type: "spring", stiffness: 50, damping: 20, duration: 0.8 }}
       >
         <img
-          src="/Handshake.png"
+          src="./Handshake.png"
           alt="Contact Us"
           className="rounded-4xl w-full"
         />

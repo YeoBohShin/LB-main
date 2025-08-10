@@ -16,7 +16,7 @@ export default function BrandingHomePage() {
         <Link to="/branding" className="btn btn-info">Find out more</Link>
       </motion.div>
       <motion.img
-        src="/PanPacific.jpg"
+        src="./PanPacific.jpg"
         alt="Branding"
         className="w-full rounded-4xl max-w-4xl xl:m-10"
         initial={{ x: 100, opacity: 0 }}

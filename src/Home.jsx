@@ -28,7 +28,7 @@ export default function Home() {
           animate={{ x: 0, opacity: 1 }}
           transition={{ type: "spring", stiffness: 80, damping: 18, duration: 0.6 }}>
           <img
-            src="/HomePage.jpg"
+            src="./HomePage.jpg"
             alt="Limo"
             className="w-full h-auto rounded-4xl"
           />

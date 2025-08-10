@@ -26,7 +26,7 @@ export default function Services() {
             </p>
           </div>
           <img 
-            src="/RightCar.jpg"
+            src="./RightCar.jpg"
             alt="Events Fleet Management"
             className="h-120 rounded-4xl shadow-lg mb-10 mt-15"
           />
@@ -43,7 +43,7 @@ export default function Services() {
         </div>
         <div className="flex flex-col items-center">
           <img 
-            src="/WideViewCar.jpg" 
+            src="./WideViewCar.jpg" 
             alt="Services" 
             className="h-150 rounded-4xl shadow-lg"
           />
@@ -63,7 +63,7 @@ export default function Services() {
             </p>
           </div>
           <img 
-            src="/Singapore_Airlines-A380.jpg" 
+            src="./Singapore_Airlines-A380.jpg" 
             alt="Airport Transfers"
             className="h-100 rounded-4xl shadow-lg mt-10 mb-15"
           />
