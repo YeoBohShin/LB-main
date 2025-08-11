@@ -28,7 +28,7 @@ export default function NavBar() {
         <nav className={`sticky top-0 w-full flex flex-row justify-between items-center gap-25 transition-transform duration-300 z-50 ${
             visible ? "translate-y-0" : "-translate-y-full"
           } shadow-lg bg-base-200`}>
-            <a href="/"><LBLogo /></a>
+            <a href="/LB-main"><LBLogo /></a>
             <ul className="flex text-lg font-semibold justify-between items-center w-230 h-26">
                 <li className="h-full flex items-center justify-center w-1/5 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
                     <Link to="/">Home</Link>

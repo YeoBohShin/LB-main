@@ -9,52 +9,56 @@
   color-scheme: light;
 
   /* Base colors */
-  --color-base-100: #FFFDF6;
-  /* Main background (ivory/champagne) */
-  --color-base-200: #F5F3EB;
-  /* Light secondary background */
-  --color-base-300: #EDEBE3;
-  /* Section dividers or card backgrounds */
-  --color-base-content: #2C2C2C;
-  /* Main text (elegant charcoal) */
+  --color-base-100: #FFFFFF;
+  /* Pure white background */
+  --color-base-200: #F5F5F5;
+  /* Soft white/Platinum secondary background */
+  --color-base-300: #E5E5E5;
+  /* Light grey for cards, dividers */
+  --color-base-content: #0A0A0A;
+  /* Deep black text */
 
-  /* Primary colors (Gold branding) */
-  --color-primary: #CBA65C;
-  /* Gold */
-  --color-primary-content: #1F1F1F;
-  /* Text on gold buttons */
+  /* Primary colors (Luxury Gold) */
+  --color-primary: #D4AF37;
+  /* Rich gold accent */
+  --color-primary-content: #000000;
+  /* Black text on gold buttons */
 
-  /* Secondary colors (Soft taupe gray) */
-  --color-secondary: #B0AFA6;
-  --color-secondary-content: #1F1F1F;
+  /* Secondary colors (Elegant Grey) */
+  --color-secondary: #B3B3B3;
+  /* Soft silver/grey */
+  --color-secondary-content: #000000;
 
-  /* Accent colors (Optional luxury accent - deep royal blue) */
-  --color-accent: #395B92;
-  --color-accent-content: #ffffff;
+  /* Accent colors (Optional) */
+  --color-accent: #7A7A7A;
+  /* Neutral deep grey accent */
+  --color-accent-content: #FFFFFF;
+  /* White text on dark accent */
 
-  /* Neutral colors (Clean UI elements) */
-  --color-neutral: #E0E0E0;
-  --color-neutral-content: #2C2C2C;
+  /* Neutral colors */
+  --color-neutral: #1A1A1A;
+  /* Charcoal for dark UI elements */
+  --color-neutral-content: #FFFFFF;
 
   /* Informational colors */
-  --color-info: #4F8A8B;
-  /* Calm teal */
-  --color-info-content: #ffffff;
+  --color-info: #9CA3AF;
+  /* Cool grey info tone */
+  --color-info-content: #000000;
 
   /* Success colors */
-  --color-success: #60C094;
-  /* Soft jade green */
-  --color-success-content: #ffffff;
+  --color-success: #6EE7B7;
+  /* Soft mint green */
+  --color-success-content: #000000;
 
   /* Warning colors */
-  --color-warning: #E6B422;
+  --color-warning: #EAB308;
   /* Golden amber */
-  --color-warning-content: #1F1F1F;
+  --color-warning-content: #000000;
 
   /* Error colors */
-  --color-error: #D77A61;
-  /* Soft coral red */
-  --color-error-content: #ffffff;
+  --color-error: #EF4444;
+  /* Vibrant red */
+  --color-error-content: #FFFFFF;
 
   /* Border radius */
   --radius-selector: 0.75rem;
