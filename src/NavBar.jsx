@@ -31,7 +31,7 @@ export default function NavBar() {
             <a href="/LB-main"><LBLogo /></a>
             <ul className="flex text-lg font-semibold justify-between items-center w-230 h-26">
                 <li className="h-full flex items-center justify-center w-1/5 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
-                    <Link to="/">Home</Link>
+                    <Link to="/LB-main">Home</Link>
                 </li>
                 <li className="h-full flex items-center justify-center w-1/5 text-primary hover:text-info hover:border-b-2 hover:border-info text-center">
                     <Link to="/services">Services</Link>

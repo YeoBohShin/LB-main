@@ -14,7 +14,7 @@ export default function LBLogo() {
 
     return (
         <img
-            src={isDark ? './assets/LBFullLogoDark.png' : './assets/LBFullLogo.png'}
+            src={isDark ? './LBFullLogoDark.png' : './LBFullLogo.png'}
             alt="Limo Banner"
             className="w-full h-auto max-h-[80px] m-3"
         />
