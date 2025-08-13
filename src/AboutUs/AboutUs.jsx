@@ -8,7 +8,7 @@ export default function AboutUs() {
 
   return (
     <>
-    <div className="flex flex-col items-center min-h-screen top-0 text-center text-base-content">
+    <div className="flex flex-col items-center min-h-screen top-0 text-center text-base-100">
       <h1 className="text-4xl font-bold m-8">About Us</h1>
       <div className="max-w-2xl text-left">
         <p className="mb-4">

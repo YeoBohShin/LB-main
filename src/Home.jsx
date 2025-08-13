@@ -23,7 +23,7 @@ export default function Home() {
           Your Preferred Singapore Limousine Services Provider
         </motion.p>
         <motion.div
-          className="w-full xl:p-10 mt-5 xl:mt-0 rounded-4xl shadow-lg"
+          className="w-full xl:p-10 mt-5 xl:mt-0 rounded-4xl"
           initial={{ x: "-100vw", opacity: 0 }} 
           animate={{ x: 0, opacity: 1 }}
           transition={{ type: "spring", stiffness: 80, damping: 18, duration: 0.6 }}>

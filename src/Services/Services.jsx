@@ -10,13 +10,13 @@ export default function Services() {
     <div className="flex flex-col min-h-screen">
       <div className="flex flex-row p-10 m-10 justify-between">
         <div className="flex flex-col items-center w-1/2">
-          <h1 className="text-4xl mb-5">Our Services</h1>
-          <ul className="list-disc list-inside">
+          <h1 className="text-4xl mb-5 text-base-100">Our Services</h1>
+          <ul className="list-disc list-inside text-base-100">
             <li>Events Fleet Management</li>
             <li>Corporate Transportation</li>
             <li>Airport Transfers</li>
           </ul>
-          <div className="mt-20 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg w-145">
+          <div className="mt-20 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg w-145 text-center">
             <h1 className="text-4xl mb-5">Events Fleet Management</h1>
             <p className="text-lg">
               This team has a wealth of holistic project fleet management experiences from fleet sourcing and negotiation, 
@@ -30,7 +30,7 @@ export default function Services() {
             alt="Events Fleet Management"
             className="h-120 rounded-4xl shadow-lg mb-10 mt-15"
           />
-          <div className="mt-20 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg w-145">
+          <div className="mt-20 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg w-145 text-center">
             <h1 className="text-4xl mb-5">Airport Transfers</h1>
             <p className="text-lg">
               Take advantage of our luxury fleet for your next trip to or from the airport. 
@@ -47,7 +47,7 @@ export default function Services() {
             alt="Services" 
             className="h-150 rounded-4xl shadow-lg"
           />
-          <div className="mt-20 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg w-145">
+          <div className="mt-20 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg w-145 text-center">
             <h1 className="text-4xl mb-5">Corporate Transportation</h1>
             <p className="text-lg">
               Limo Butler Pte Ltd understands and welcomes the special needs of business travellers. 

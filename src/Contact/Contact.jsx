@@ -8,7 +8,7 @@ export default function Contact() {
 
   return (
     <>
-      <div className="flex flex-row justify-top min-h-screen top-0">
+      <div className="flex flex-row justify-top min-h-screen top-0 text-base-100">
         <div className="flex flex-col justify-top m-10 w-full">
           <h1 className="text-4xl m-5">Limo Butler Pte Ltd</h1>
           <p className="text-lg m-5">

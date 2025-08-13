@@ -9,56 +9,52 @@
   color-scheme: light;
 
   /* Base colors */
-  --color-base-100: #FFFFFF;
-  /* Pure white background */
-  --color-base-200: #F5F5F5;
-  /* Soft white/Platinum secondary background */
-  --color-base-300: #E5E5E5;
-  /* Light grey for cards, dividers */
-  --color-base-content: #0A0A0A;
-  /* Deep black text */
+  --color-base-100: #FFFDF6;
+  /* Main background (ivory/champagne) */
+  --color-base-200: #F5F3EB;
+  /* Light secondary background */
+  --color-base-300: #EDEBE3;
+  /* Section dividers or card backgrounds */
+  --color-base-content: #2C2C2C;
+  /* Main text (elegant charcoal) */
 
-  /* Primary colors (Luxury Gold) */
-  --color-primary: #D4AF37;
-  /* Rich gold accent */
-  --color-primary-content: #000000;
-  /* Black text on gold buttons */
+  /* Primary colors (Gold branding) */
+  --color-primary: #CBA65C;
+  /* Gold */
+  --color-primary-content: #1F1F1F;
+  /* Text on gold buttons */
 
-  /* Secondary colors (Elegant Grey) */
-  --color-secondary: #B3B3B3;
-  /* Soft silver/grey */
-  --color-secondary-content: #000000;
+  /* Secondary colors (Soft taupe gray) */
+  --color-secondary: #B0AFA6;
+  --color-secondary-content: #1F1F1F;
 
-  /* Accent colors (Optional) */
-  --color-accent: #7A7A7A;
-  /* Neutral deep grey accent */
-  --color-accent-content: #FFFFFF;
-  /* White text on dark accent */
+  /* Accent colors (Optional luxury accent - deep royal blue) */
+  --color-accent: #395B92;
+  --color-accent-content: #ffffff;
 
-  /* Neutral colors */
-  --color-neutral: #1A1A1A;
-  /* Charcoal for dark UI elements */
-  --color-neutral-content: #FFFFFF;
+  /* Neutral colors (Clean UI elements) */
+  --color-neutral: #E0E0E0;
+  --color-neutral-content: #2C2C2C;
 
   /* Informational colors */
-  --color-info: #9CA3AF;
-  /* Cool grey info tone */
-  --color-info-content: #000000;
+  --color-info: #4F8A8B;
+  /* Calm teal */
+  --color-info-content: #ffffff;
 
   /* Success colors */
-  --color-success: #6EE7B7;
-  /* Soft mint green */
-  --color-success-content: #000000;
+  --color-success: #60C094;
+  /* Soft jade green */
+  --color-success-content: #ffffff;
 
   /* Warning colors */
-  --color-warning: #EAB308;
+  --color-warning: #E6B422;
   /* Golden amber */
-  --color-warning-content: #000000;
+  --color-warning-content: #1F1F1F;
 
   /* Error colors */
-  --color-error: #EF4444;
-  /* Vibrant red */
-  --color-error-content: #FFFFFF;
+  --color-error: #D77A61;
+  /* Soft coral red */
+  --color-error-content: #ffffff;
 
   /* Border radius */
   --radius-selector: 0.75rem;
@@ -80,23 +76,23 @@
   color-scheme: dark;
 
   /* Base colors */
-  --color-base-100: #1A1A1A;
+  --color-base-100: #000000;
   /* Main background (rich charcoal) */
   --color-base-200: #242424;
   /* Slightly lighter sections/cards */
   --color-base-300: #2F2F2F;
   /* Even lighter borders or containers */
-  --color-base-content: #F5F5F5;
+  --color-base-content: #FFFFFF;
   /* Main text (soft white) */
 
   /* Primary colors (Gold brand color) */
-  --color-primary: #CBA65C;
+  --color-primary: #FFFFFF;
   /* Warm gold */
   --color-primary-content: #1A1A1A;
   /* Text on gold (dark background) */
 
   /* Secondary colors (Deep taupe or warm gray) */
-  --color-secondary: #A49D8E;
+  --color-secondary: #000000;
   --color-secondary-content: #1A1A1A;
 
   /* Accent colors (Optional deep royal blue or jade) */

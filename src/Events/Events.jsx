@@ -10,8 +10,8 @@ export default function Events() {
 
   return (
     <div className="flex flex-col items-center justify-top min-h-screen top-0 text-center text-base-content">
-      <h1 className="text-[48px] font-bold m-4">Events</h1>
-      <p className="max-w-[756px] text-justify">Over the years, Limo Butler Pte Ltd has had the honour of providing premium limousine services for some of Singapore’s most prominent international events. From financial summits and global exhibitions to world-class sporting events and cultural festivals, our dedication to reliability, professionalism, and luxury transport has made us a trusted partner for high-profile occasions.</p>
+      <h1 className="text-[48px] font-bold m-4 text-base-100">Events</h1>
+      <p className="max-w-[756px] text-justify text-base-100">Over the years, Limo Butler Pte Ltd has had the honour of providing premium limousine services for some of Singapore’s most prominent international events. From financial summits and global exhibitions to world-class sporting events and cultural festivals, our dedication to reliability, professionalism, and luxury transport has made us a trusted partner for high-profile occasions.</p>
       <div className="flex flex-row items-center justify-center mt-4">
         <img 
           src="./AirShow.jpg"
