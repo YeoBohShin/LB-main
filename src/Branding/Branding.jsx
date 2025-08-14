@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Footer from "../Footer";
 
 export default function Branding() {
   useEffect(() => {
@@ -7,7 +8,6 @@ export default function Branding() {
 
   return (
     <div className="flex flex-col items-center justify-top min-h-screen top-0 text-center text-base-100">
-      <h1 className="text-4xl font-bold m-8">Our Brand Story</h1>
       <img
         src="./LimoStaff.jpg"
         alt="Limo Staff"
@@ -19,6 +19,7 @@ export default function Branding() {
 
         We are more than a limousine service — we are a symbol of sophistication, trust, and reliability, proudly serving clients who expect the very best.
       </p>
+      <Footer />
     </div>
   );
 }

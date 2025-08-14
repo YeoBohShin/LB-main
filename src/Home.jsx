@@ -30,7 +30,7 @@ export default function Home() {
           <img
             src="./HomePage.jpg"
             alt="Limo"
-            className="w-full h-full rounded-4xl"
+            className="w-full h-full rounded-4xl xl:rounded-none"
           />
         </motion.div>
       </div>
