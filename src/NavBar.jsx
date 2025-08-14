@@ -34,10 +34,10 @@ export default function NavBar() {
                     <Link to="/">Home</Link>
                 </li>
                 <li className="h-full flex items-center justify-center w-1/5 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
-                    <Link to="/services">Services</Link>
+                    <Link to="/events">Events</Link>
                 </li>
                 <li className="h-full flex items-center justify-center w-1/5 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
-                    <Link to="/events">Events</Link>
+                    <Link to="/services">Services</Link>
                 </li>
                 <li className="h-full flex items-center justify-center w-1/5 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
                     <Link to="/branding">Branding</Link>
