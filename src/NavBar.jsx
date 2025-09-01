@@ -29,25 +29,25 @@ export default function NavBar() {
             visible ? "translate-y-0" : "-translate-y-full"
           } shadow-lg bg-secondary`}>
             <Link to="/"><LBLogo /></Link>
-            <ul className="flex text-lg font-semibold justify-between items-center w-230 h-26">
-                <li className="h-full flex items-center justify-center w-1/5 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
+            <ul className="flex text-lg font-semibold justify-between items-center w-200 h-26">
+                <li className="h-full flex items-center justify-center w-1/4 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
                     <Link to="/">Home</Link>
                 </li>
-                <li className="h-full flex items-center justify-center w-1/5 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
+                <li className="h-full flex items-center justify-center w-1/4 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
                     <Link to="/events">Events</Link>
                 </li>
-                <li className="h-full flex items-center justify-center w-1/5 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
+                <li className="h-full flex items-center justify-center w-1/4 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
                     <Link to="/services">Services</Link>
                 </li>
-                <li className="h-full flex items-center justify-center w-1/5 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
+                <li className="h-full flex items-center justify-center w-1/4 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
                     <Link to="/branding">Branding</Link>
                 </li>
-                <li className="h-full flex items-center justify-center w-1/5 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
+                {/* <li className="h-full flex items-center justify-center w-1/5 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
                     <Link to="/about">About Us</Link>
                 </li>
                 <li className="h-full flex items-center justify-center w-1/5 text-primary hover:text-info border-b-2 border-transparent hover:border-info text-center">
                     <Link to="/contact">Contact</Link>
-                </li>
+                </li> */}
             </ul>
         </nav>
     );

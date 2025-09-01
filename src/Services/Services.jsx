@@ -19,10 +19,8 @@ export default function Services() {
           <div className="mt-20 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg w-145 text-center">
             <h1 className="text-4xl mb-5">Events Fleet Management</h1>
             <p className="text-lg">
-              This team has a wealth of holistic project fleet management experiences from fleet sourcing and negotiation, 
-              chauffeurs recruitment and training, to the in-project fleet detailing and chauffeur deployments, 
-              the company offers an unmatched end-to-end transport solutions to organizers; and, in turn, 
-              to their VIP guests.
+              The team has a wealth of holistic project fleet management experiences from fleet sourcing and negotiation, 
+              chauffeurs recruitment, to the in-project fleet detailing and chauffeur deployments, we offer an unmatched transport solutions to organisers.
             </p>
           </div>
           <img 

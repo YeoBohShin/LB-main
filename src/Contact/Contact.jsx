@@ -24,10 +24,7 @@ export default function Contact() {
             <strong className="mr-3">Phone: </strong>
             <div className="flex flex-col">
               <p>
-                +65 6509 9746 (During office hours)
-              </p>
-              <p>
-                +65 6659 1264 (After office hours)
+                +65 6509 9746
               </p>
             </div>
           </div>
