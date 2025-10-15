@@ -16,7 +16,7 @@ export default function Branding() {
       <h1 className="text-7xl font-bold m-8 absolute top-7/9">Our Brand</h1>
       <div className="flex flex-row items-center justify-center xl:justify-start flex-wrap xl:flex-nowrap m-5 xl:mx-20 xl:my-10 gap-10">
         <img
-          src="./CircleParkedCar.jpg"
+          src="./LeftCar.jpg"
           alt="Limo Branding"
           className="h-auto w-full max-w-2xl rounded-4xl shadow-lg"
         />

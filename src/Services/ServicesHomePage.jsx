@@ -28,7 +28,7 @@ export default function ServicesHomePage() {
       >
         <div className="w-full rounded-4xl xl:m-15">
           <img
-            src="./LeftCar.jpg"
+            src="./CircleParkedCar.jpg"
             alt="Events"
             className="w-full h-full object-cover rounded-4xl"
           />

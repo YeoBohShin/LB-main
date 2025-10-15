@@ -5,10 +5,11 @@ export default function EventsHomePage() {
   return (
     <div className="flex flex-col items-center justify-center xl:min-h-screen text-white mx-5 xl:mx-0">
       <motion.div className="text-center p-10 xl:absolute top-11/5 z-10 text-base-100"
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ x: 100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.3 }}
-        transition={{ type: "spring", stiffness: 50, damping: 20, duration: 0.8 }}>
+        transition={{ type: "spring", stiffness: 50, damping: 20, duration: 0.8 }}
+      >
         <h1 className="text-5xl mb-3">Events</h1>
         <p className="w-[375px] text-lg">
           Check out past events that Limo Butler Pte Ltd has been a part of, showcasing our premium limousine services at some of Singapore's most prominent international events.
@@ -19,8 +20,8 @@ export default function EventsHomePage() {
       </motion.div>
       <motion.div
         className="w-full rounded-4xl shadow-lg mt-5 xl:mt-0 max-w-5xl"
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ type: "spring", stiffness: 50, damping: 20, duration: 0.8 }}
         >
