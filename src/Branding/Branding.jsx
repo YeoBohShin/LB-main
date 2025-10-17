@@ -23,11 +23,9 @@ export default function Branding() {
         <div className="text-center">
           <h1 className="text-4xl font-semibold m-8 text-center">Mark your Brand</h1>
           <p className="text-lg m-8 max-w-3xl leading-relaxed text-left">
-            At Limo Butler Pte Ltd, we go beyond premium transportation by turning our 
-            fleet into a moving showcase for your brand. Whether it's a corporate event, 
-            product launch, or high-profile campaign, we provide customised branding 
-            options that allow your logo and message to be displayed on our 
-            vehicles. This leaves a lasting impression as your brand travels in style.
+            Want your logo rolling around town? Here at Limo Butler Pte Ltd, we can make it happen.
+            Share your design with us — we'll handle the print and installation. 
+            Whether it's one car or a full fleet, we'll ensure your brand stands out on the road.
           </p>
           </div>
       </div>
