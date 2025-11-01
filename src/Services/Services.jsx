@@ -8,15 +8,15 @@ export default function Services() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="flex flex-row p-10 m-10 justify-between">
-        <div className="flex flex-col items-center w-1/2">
+      <div className="flex flex-col xl:flex-row p-10 xl:m-10 justify-between">
+        <div className="flex flex-col items-center xl:w-1/2">
           <h1 className="text-4xl mb-5 text-base-100">Our Services</h1>
           <ul className="list-disc list-inside text-base-100">
             <li>Events Fleet Management</li>
             <li>Corporate Transportation</li>
             <li>Airport Transfers</li>
           </ul>
-          <div className="mt-20 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg w-145 text-center">
+          <div className="mt-20 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg text-center">
             <h1 className="text-4xl mb-5">Events Fleet Management</h1>
             <p className="text-lg">
               The team has a wealth of holistic project fleet management experiences from fleet sourcing and negotiation, 
@@ -26,9 +26,9 @@ export default function Services() {
           <img 
             src="./RightCar.jpg"
             alt="Events Fleet Management"
-            className="h-120 rounded-4xl shadow-lg mb-10 mt-15"
+            className="w-full max-w-4xl rounded-4xl shadow-lg xl:mb-10 xl:mt-15"
           />
-          <div className="mt-20 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg w-145 text-center">
+          <div className="mt-5 xl:mt-20 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg text-center">
             <h1 className="text-4xl mb-5">Airport Transfers</h1>
             <p className="text-lg">
               Take advantage of our luxury fleet for your next trip to or from the airport. 
@@ -43,9 +43,9 @@ export default function Services() {
           <img 
             src="./WideViewCar.jpg" 
             alt="Services" 
-            className="h-150 rounded-4xl shadow-lg"
+            className="w-full max-w-md rounded-4xl shadow-lg"
           />
-          <div className="mt-20 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg w-145 text-center">
+          <div className="mt-5 xl:mt-20 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg text-center xl:w-145">
             <h1 className="text-4xl mb-5">Corporate Transportation</h1>
             <p className="text-lg">
               Limo Butler Pte Ltd understands and welcomes the special needs of business travellers. 
@@ -63,7 +63,7 @@ export default function Services() {
           <img 
             src="./Singapore_Airlines-A380.jpg" 
             alt="Airport Transfers"
-            className="h-100 rounded-4xl shadow-lg mt-10 mb-15"
+            className="w-full max-w-xl rounded-4xl shadow-lg mt-10 mb-15"
           />
         </div>
       </div>
