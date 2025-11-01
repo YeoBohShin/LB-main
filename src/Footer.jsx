@@ -24,7 +24,7 @@ export default function Footer() {
           </ul>
           <div className="flex flex-col mt-5">
             <h1 className="text-3xl font-bold ml-5">Find Us</h1>
-          <div className="text-lg m-5 mb-0 flex flex-row">
+          <div className="text-lg m-5 mb-5 flex flex-row xl:mb-0">
             <strong className="mr-3">Address: </strong>
             <p>
               33 Ubi Avenue 3, VERTEX, #05-67, Singapore 408868

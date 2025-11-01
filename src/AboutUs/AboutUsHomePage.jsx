@@ -2,22 +2,9 @@ import { motion } from "framer-motion";
 
 export default function AboutUsHomePage() {
   return (
-    <div className="flex flex-col items-center text-center mx-5 xl:mx-0 xl:min-h-screen xl:flex-row">
+    <div className="flex flex-col items-center text-center mx-5 xl:mx-0 xl:min-h-screen xl:flex-row-reverse">
         <motion.div
-            className="w-full max-w-3xl xl:m-10 hidden xl:block"
-            initial={{ x: 100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ type: "spring", stiffness: 50, damping: 20, duration: 0.8 }}
-        >
-            <img
-                src="./LimoButler.jpeg"
-                alt="About Us"
-                className="w-full h-auto rounded-4xl shadow-lg"
-            />
-        </motion.div>
-        <motion.div
-            className="w-full max-w-3xl xl:m-10 hidden xl:block text-black"
+            className="w-full max-w-3xl xl:m-10 text-black"
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             viewport={{ once: true, amount: 0.3 }}
@@ -54,6 +41,19 @@ export default function AboutUsHomePage() {
                 deliver flawless event experiences, with every detail on the road taken 
                 care of.
             </p>
+        </motion.div>
+        <motion.div
+            className="w-full max-w-3xl xl:m-10 mb-5 xl:mb-0"
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ type: "spring", stiffness: 50, damping: 20, duration: 0.8 }}
+        >
+            <img
+                src="./LimoButler.jpeg"
+                alt="About Us"
+                className="w-full h-auto rounded-4xl shadow-lg"
+            />
         </motion.div>
     </div>
   );

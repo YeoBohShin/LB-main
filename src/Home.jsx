@@ -4,7 +4,6 @@ import ServicesHomePage from "./Services/ServicesHomePage";
 import EventsHomePage from "./Events/EventsHomePage";
 import AboutUsHomePage from "./AboutUs/AboutUsHomePage";
 import BrandingHomePage from "./Branding/BrandingHomePage";
-import ContactHomePage from "./Contact/ContactHomePage";
 import Footer from "./Footer";
 
 export default function Home() {
@@ -16,15 +15,14 @@ export default function Home() {
     <>
       <div className="xl:min-h-screen text-center text-base-content items-center justify-center mx-5 mt-5 mb-5 xl:mb-0 xl:mx-0 xl:mt-0">
         <motion.p 
-          // className="bg-base-200 xl:bg-[rgba(0,0,0,0.5)] text-white text-center text-4xl z-10 p-10 rounded-4xl shadow-lg md:absolute md:left-1/2 md:top-1/3 md:transform md:-translate-x-1/2 md:-translate-y-1/2 mb-5 md:mb-0"
-          className="text-secondary text-center text-5xl z-10 p-10 md:absolute md:left-1/2 md:top-1/3 md:transform md:-translate-x-1/2 md:-translate-y-1/2 mb-5 md:mb-0"
+          className="text-primary text-center text-5xl z-10 p-10 xl:absolute xl:left-1/2 xl:top-1/3 xl:transform xl:-translate-x-1/2 xl:-translate-y-1/2 mb-5 xl:mb-0 bg-base-200 xl:bg-transparent rounded-4xl shadow-lg xl:shadow-none xl:text-secondary"
           initial={{ x: "100vw", opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ type: "spring", stiffness: 80, damping: 18, duration: 0.6 }}>
           Your Preferred Singapore Limousine Services Provider
         </motion.p>
         <img
-          src="./HomePage.jpg"
+          src="./Homepage2.jpeg"
           alt="Limo"
           className="w-full h-full rounded-4xl xl:rounded-none"
         />
