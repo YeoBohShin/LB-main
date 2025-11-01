@@ -63,7 +63,7 @@ export default function Services() {
           <img 
             src="./Singapore_Airlines-A380.jpg" 
             alt="Airport Transfers"
-            className="w-full max-w-xl rounded-4xl shadow-lg mt-10 mb-15"
+            className="w-full max-w-xl rounded-4xl shadow-lg xl:mt-10 xl:mb-15"
           />
         </div>
       </div>
