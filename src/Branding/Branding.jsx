@@ -13,12 +13,12 @@ export default function Branding() {
         alt="Limo Staff"
         className="h-auto"
       />
-      <h1 className="text-7xl font-bold m-8 absolute top-7/9">Our Brand</h1>
-      <div className="flex flex-row items-center justify-center xl:justify-start flex-wrap xl:flex-nowrap m-5 xl:mx-20 xl:my-10 gap-10">
+      <h1 className="text-7xl font-bold m-8 xl:absolute xl:top-7/9">Our Brand</h1>
+      <div className="flex flex-row items-center justify-center xl:justify-start flex-wrap xl:flex-nowrap xl:m-5 xl:mx-20 xl:my-10 gap-10">
         <img
           src="./LeftCar.jpg"
           alt="Limo Branding"
-          className="h-auto w-full max-w-2xl rounded-4xl shadow-lg"
+          className="h-auto w-full xl:max-w-2xl xl:rounded-4xl xl:shadow-lg"
         />
         <div className="text-center">
           <h1 className="text-4xl font-semibold m-8 text-center">Mark your Brand</h1>
