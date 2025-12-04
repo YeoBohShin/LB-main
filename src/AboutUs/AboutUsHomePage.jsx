@@ -5,13 +5,13 @@ export default function AboutUsHomePage() {
     <div className="flex flex-col items-center text-center mx-5 xl:mx-0 xl:min-h-screen xl:flex-row-reverse">
         <motion.div
             className="w-full max-w-3xl xl:m-10 text-black"
-            initial={{ x: -100, opacity: 0 }}
+            initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ type: "spring", stiffness: 50, damping: 20, duration: 0.8 }}
         >
-            <h1 className="text-5xl mb-5">Limo Butler Pte Ltd</h1>
-            <p className="text-lg mb-5 text-justify">
+            <h1 className="text-3xl md:text-5xl font-bold mb-5">Limo Butler Pte Ltd</h1>
+            <p className="text-lg mb-5 text-center">
                 At Limo Butler Pte Ltd, we are more than just a limousine service. 
                 With years of proven experience supporting high-profile corporate 
                 clients, international conferences, and large-scale events, we 
@@ -44,7 +44,7 @@ export default function AboutUsHomePage() {
         </motion.div>
         <motion.div
             className="w-full max-w-3xl xl:m-10 mb-5 xl:mb-0"
-            initial={{ x: 100, opacity: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ type: "spring", stiffness: 50, damping: 20, duration: 0.8 }}
