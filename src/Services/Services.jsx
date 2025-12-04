@@ -10,12 +10,7 @@ export default function Services() {
     <div className="flex flex-col min-h-screen">
       <div className="flex flex-col xl:flex-row p-10 xl:m-10 justify-between">
         <div className="flex flex-col items-center xl:w-1/2">
-          <h1 className="text-4xl mb-5 text-base-100">Our Services</h1>
-          <ul className="list-disc list-inside text-base-100">
-            <li>Events Fleet Management</li>
-            <li>Corporate Transportation</li>
-            <li>Airport Transfers</li>
-          </ul>
+          <h1 className="text-5xl text-base-100 font-bold">Our Services</h1>
           <div className="mt-20 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg text-center">
             <h1 className="text-4xl mb-5">Events Fleet Management</h1>
             <p className="text-lg">
@@ -48,16 +43,11 @@ export default function Services() {
           <div className="mt-5 xl:mt-20 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg text-center xl:w-145">
             <h1 className="text-4xl mb-5">Corporate Transportation</h1>
             <p className="text-lg">
-              Limo Butler Pte Ltd understands and welcomes the special needs of business travellers. 
-              Safety is our first priority for our corporate clients.
-              Patient and experienced chauffeurs, highly valued for their professional skills and 
-              attention to passenger needs are ready to serve you. We maintain close contact with our 
-              chauffeurs at all times so regardless of any travel changes or special needs they are 
-              always ready.
-              We know how important it is to provide business travellers with a reliable chauffeur. 
-              Each of our chauffeur is professional, knowledgeable, discreet, and very familiar with 
-              the particular needs of the business traveller. Our goal is to transport our passengers 
-              to and from their meetings in the most efficient, timely, comfortable and safe way possible.
+              Limo Butler Pte Ltd understands the special needs of our clients. Safety is 
+              our first priority for our corporate clients. We maintain close contact 
+              with our chauffeurs at all times so regardless of any travel changes or special 
+              needs they are always ready. Our goal is to transport our passengers to and from their 
+              meetings in the most efficient, timely, comfortable and safe way possible.
             </p>
           </div>
           <img 
