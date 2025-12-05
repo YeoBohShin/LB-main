@@ -28,6 +28,9 @@ export default function Menu({ isOpen, onClose }) {
                 <li className="h-full flex p-4 text-primary hover:text-info border-b-2 border-transparent hover:border-info">
                     <Link to="/branding" onClick={onClose}>Branding</Link>
                 </li>
+                <li className="h-full flex p-4 text-primary hover:text-info border-b-2 border-transparent hover:border-info">
+                    <Link to="/contact" onClick={onClose}>Contact</Link>
+                </li> 
         </ul>
       </nav>
     </div>

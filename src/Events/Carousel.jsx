@@ -10,6 +10,8 @@ const logos = [
   { src: "./EnergyWeek.jpg", alt: "Energy Week" },
   { src: "./MediaCorp.jpg", alt: "MediaCorp" },
   { src: "./DBAccessAsia.jpeg", alt: "DB Access Asia" },
+  { src: "./Porsche.jpeg", alt: "Porsche" },
+  { src: "./LongGolf.jpeg", alt: "Long Golf" },
 ];
 
 export default function Carousel() {

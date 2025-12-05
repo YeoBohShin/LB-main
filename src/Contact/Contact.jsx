@@ -8,11 +8,12 @@ export default function Contact() {
 
   return (
     <>
-      <div className="flex flex-row justify-top min-h-screen top-0 text-base-100">
-        <div className="flex flex-col justify-top m-10 w-full">
+      <div className="flex flex-col xl:flex-row justify-top min-h-screen top-0 text-base-100">
+        <div className="flex flex-col justify-top m-10 mb-0">
           <h1 className="text-4xl m-5">Limo Butler Pte Ltd</h1>
           <p className="text-lg m-5">
-            Feel free to reach out to us for any inquiries or feedback. We are here to assist you with your limousine service needs.
+            Feel free to reach out to us for any inquiries or feedback. 
+            We are here to assist you with your limousine service needs.
           </p>
           <div className="text-lg m-5">
             <strong className="mr-3">Email: </strong>
@@ -28,28 +29,17 @@ export default function Contact() {
               </p>
             </div>
           </div>
-          <div className="text-lg m-5 flex flex-row">
+          <div className="text-lg m-5 flex flex-row mb-0">
             <strong className="mr-3">Address: </strong>
             <p>
               33 Ubi Avenue 3, VERTEX, #05-67, Singapore 408868
             </p>
           </div>
-          <div className="text-lg m-5 flex flex-row">
-            <strong className="mr-3">Operating Hours: </strong>
-            <div className="flex flex-col">
-              <p>
-                Monday to Friday: 9:00 AM - 6:00 PM
-              </p>
-              <p>
-                Saturday, Sunday & Public Holidays: Closed
-              </p>
-            </div>
-          </div>
         </div>
         <img
-          src="./Contact.jpg"
+          src="./ContactWork.jpeg"
           alt="Contact Us"
-          className="h-150 m-15 mt-5 rounded-4xl"
+          className="m-10 max-w-4xl h-auto rounded-4xl"
         />
       </div>
       <Footer />

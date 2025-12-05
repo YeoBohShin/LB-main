@@ -4,6 +4,7 @@ import ServicesHomePage from "./Services/ServicesHomePage";
 import EventsHomePage from "./Events/EventsHomePage";
 import AboutUsHomePage from "./AboutUs/AboutUsHomePage";
 import BrandingHomePage from "./Branding/BrandingHomePage";
+import ContactHomePage from "./Contact/ContactHomePage";
 import Footer from "./Footer";
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
       <EventsHomePage />
       <ServicesHomePage />
       <BrandingHomePage />
+      <ContactHomePage />
       <Footer />
     </>
   );
