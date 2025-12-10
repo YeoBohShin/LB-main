@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 export default function ServicesHomePage() {
   return (
-    <div className="flex flex-col xl:flex-row xl:min-h-screen text-center mx-5 items-center justify-start text-primary mb-5 xl:mb-0">
+    <div className="relative flex flex-col xl:flex-row xl:min-h-screen text-center mx-5 items-center justify-start text-primary mb-5 xl:mb-0">
       <motion.div
-        className="bg-base-200 z-10 p-10 rounded-4xl w-full shadow-lg relative flex flex-col justify-center items-center mt-5 xl:mt-0 xl:absolute xl:top-19/5 xl:right-1/7 xl:w-1/4"
+        className="bg-base-200 z-10 p-10 rounded-4xl w-full shadow-lg relative flex flex-col justify-center items-center mt-5 xl:mt-0 xl:absolute xl:top-2/7 xl:right-1/7 xl:w-1/4"
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.3 }}

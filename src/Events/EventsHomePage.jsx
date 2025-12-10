@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export default function EventsHomePage() {
   return (
-    <div className="flex flex-col items-center justify-center xl:min-h-screen text-white mx-5 xl:mx-0">
+    <div className="relative flex flex-col items-center justify-center xl:min-h-screen text-white mx-5 xl:mx-0">
       <motion.div 
-        className="bg-base-200 z-10 p-10 rounded-4xl shadow-lg relative flex flex-col justify-center items-center xl:mt-0 xl:absolute xl:top-18/7 xl:bg-transparent xl:text-base-100 rounded-4xl shadow-lg xl:shadow-none"
+        className="bg-base-200 z-10 p-10 rounded-4xl shadow-lg relative flex flex-col justify-center items-center xl:mt-0 xl:absolute xl:top-1/8 xl:bg-transparent xl:text-base-100 rounded-4xl shadow-lg xl:shadow-none"
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.3 }}
