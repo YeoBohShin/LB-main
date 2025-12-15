@@ -15,7 +15,7 @@ const logos = [
 ];
 
 export default function Carousel() {
-  const visibleCount = 3;
+  const [visibleCount, setVisibleCount] = useState(3);
   const clonedStart = logos.slice(-visibleCount);
   const clonedEnd = logos.slice(0, visibleCount);
   const fullList = [...clonedStart, ...logos, ...clonedEnd];
@@ -68,6 +68,22 @@ export default function Carousel() {
     }
   }, [transition]);
 
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1024) {
+        setVisibleCount(1); // Small screens
+      } else {
+        setVisibleCount(3); // Wide screens
+      }
+    };
+
+    // Set initial value
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   // Calculate transform and track width
   const translate = `translateX(-${(100 / fullList.length) * index}%)`;
   const transitionStyle = transition ? "transform 0.5s ease-in-out" : "none";
@@ -80,7 +96,6 @@ export default function Carousel() {
         const track = trackRef.current;
         const onTransitionEnd = () => {
             setIsAnimating(false);
-            // ... existing logic for looping ...
         };
         track.addEventListener("transitionend", onTransitionEnd);
         return () => track.removeEventListener("transitionend", onTransitionEnd);
