@@ -8,12 +8,10 @@ export default function Branding() {
 
   return (
     <div className="flex flex-col items-center justify-top min-h-screen top-0 text-center text-base-100">
-      <img
-        src="./LimoStaff.jpg"
-        alt="Limo Staff"
-        className="h-auto"
-      />
-      <h1 className="hidden text-7xl font-bold xl:absolute xl:block xl:top-7/9">Branding</h1>
+      <div className="relative">
+        <img src="./LimoStaff.jpg" alt="Limo Staff" className="h-auto"/>
+        <h1 className="hidden text-7xl font-bold xl:absolute xl:block xl:top-7/9 xl:left-3/7">Branding</h1>
+      </div>
       <div className="flex flex-row-reverse items-center justify-center xl:justify-start flex-wrap xl:flex-nowrap xl:m-5 xl:gap-10">
         <img
           src="./BrandingRightCar.jpeg"

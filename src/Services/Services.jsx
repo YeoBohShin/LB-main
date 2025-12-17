@@ -7,8 +7,8 @@ export default function Services() {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen">
-      <div className="flex flex-col xl:flex-row p-10 xl:m-10 justify-between">
+    <div className="flex flex-col min-h-screen items-center">
+      <div className="flex flex-col xl:flex-row p-10 xl:m-10 justify-between max-w-7xl mx-auto w-full">
         <div className="flex flex-col items-center xl:w-1/2">
           <h1 className="text-5xl text-base-100 font-bold">Our Services</h1>
           <div className="mt-10 mb-5 bg-base-200 p-10 rounded-4xl shadow-lg text-center">
