@@ -20,13 +20,13 @@ export default function Menu({ isOpen, onClose }) {
                     <Link to="/" onClick={onClose}>Home</Link>
                 </li>
                 <li className="h-full flex p-4 text-primary hover:text-info border-b-2 border-transparent hover:border-info">
-                    <Link to="/events" onClick={onClose}>Events</Link>
-                </li>
-                <li className="h-full flex p-4 text-primary hover:text-info border-b-2 border-transparent hover:border-info">
                     <Link to="/services" onClick={onClose}>Services</Link>
                 </li>
                 <li className="h-full flex p-4 text-primary hover:text-info border-b-2 border-transparent hover:border-info">
                     <Link to="/branding" onClick={onClose}>Branding</Link>
+                </li>
+                <li className="h-full flex p-4 text-primary hover:text-info border-b-2 border-transparent hover:border-info">
+                    <Link to="/events" onClick={onClose}>Events</Link>
                 </li>
                 <li className="h-full flex p-4 text-primary hover:text-info border-b-2 border-transparent hover:border-info">
                     <Link to="/contact" onClick={onClose}>Contact</Link>

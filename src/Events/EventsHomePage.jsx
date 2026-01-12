@@ -6,7 +6,7 @@ export default function EventsHomePage() {
     <div className="w-full flex justify-center xl:min-h-screen xl:items-center">
       <div className="relative w-full max-w-7xl mx-5 xl:mx-auto flex flex-col xl:flex-row-reverse">
       <motion.div 
-        className="flex flex-col items-center text-center p-10 w-full xl:absolute xl:top-2/7 xl:w-1/3 bg-base-200 rounded-4xl shadow-lg z-10 mb-5 xl:mb-0 xl:left-10"
+        className="flex flex-col items-center text-center p-10 w-full xl:absolute xl:top-2/7 xl:w-3/8 bg-base-200 rounded-4xl shadow-lg z-10 mb-5 xl:mb-0 xl:left-10"
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.3 }}
@@ -21,7 +21,7 @@ export default function EventsHomePage() {
         </Link>
       </motion.div>
       <motion.div
-        className="w-full rounded-4xl shadow-lg mt-5 xl:mt-0 max-w-5xl"
+        className="w-full rounded-4xl shadow-lg max-w-5xl"
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.3 }}

@@ -29,9 +29,9 @@ export default function Home() {
         />
       </div>
       <AboutUsHomePage />
-      <EventsHomePage />
       <ServicesHomePage />
       <BrandingHomePage />
+      <EventsHomePage />
       <ContactHomePage />
       <Footer />
     </>
