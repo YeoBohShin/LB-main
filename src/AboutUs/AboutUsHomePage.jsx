@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function AboutUsHomePage() {
   return (
-    <div className="flex flex-col items-center text-center mx-5 xl:mx-0 xl:min-h-screen xl:flex-row-reverse">
+    <div className="flex flex-col items-center text-center mx-5 xl:mx-0 xl:min-h-screen xl:flex-row-reverse justify-center">
         <motion.div
             className="w-full xl:max-w-3xl xl:m-10 text-black"
             initial={{ x: 100, opacity: 0 }}
