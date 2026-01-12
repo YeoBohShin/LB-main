@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="xl:min-h-screen text-center text-base-content items-center justify-center mx-5 mt-5 mb-5 xl:mb-0 xl:mx-0 xl:mt-0">
+      <div className="xl:min-h-screen text-center text-base-content items-center justify-center m-5 xl:m-0">
         <motion.p 
           className="text-primary text-center text-5xl z-10 p-10 xl:absolute xl:left-1/2 xl:top-1/3 xl:transform xl:-translate-x-1/2 xl:-translate-y-1/2 mb-5 xl:mb-0 bg-base-200 xl:bg-transparent rounded-4xl shadow-lg xl:shadow-none xl:text-secondary"
           initial={{ x: "100vw", opacity: 0 }}

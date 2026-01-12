@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 
 export default function AboutUsHomePage() {
   return (
-    <div className="flex flex-col items-center text-center m-5 xl:m-0 xl:min-h-screen xl:flex-row-reverse justify-center">
+    <div className="flex flex-col items-center text-center mx-5 xl:mx-0 xl:min-h-screen xl:flex-row-reverse justify-center">
         <motion.div
-            className="w-full xl:max-w-3xl xl:m-10 text-black"
+            className="w-full xl:max-w-3xl xl:m-10 bg-base-200 p-10 rounded-4xl shadow-lg xl:text-black xl:bg-transparent mb-5 xl:mb-0 xl:border-none xl:shadow-none"
             initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             viewport={{ once: true, amount: 0.3 }}
