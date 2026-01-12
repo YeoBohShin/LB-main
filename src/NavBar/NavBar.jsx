@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import MenuIcon from './NavBar/MenuIcon';
-import LBLogo from './Logo/LBLogo';
+import MenuIcon from './MenuIcon';
+import LBLogo from '../Logo/LBLogo';
 
 export default function NavBar({ setIsOpen }) {
     const [visible, setVisible] = useState(true);
