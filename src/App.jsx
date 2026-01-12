@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import NavBar  from './NavBar';
+import NavBar  from './NavBar/NavBar';
 import Home from './Home';
 import Services from './Services/Services';
 import AboutUs from './AboutUs/AboutUs';

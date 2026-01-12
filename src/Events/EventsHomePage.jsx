@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 export default function EventsHomePage() {
   return (
-    <div className="relative flex flex-col items-center justify-center xl:min-h-screen text-white mx-5 xl:mx-0">
-      <div className="grid grid-cols-1 w-full max-w-7xl mx-5 xl:mx-auto place-items-center relative">
+    <div className="w-full flex justify-center xl:min-h-screen xl:items-center">
+      <div className="relative w-full max-w-7xl mx-5 xl:mx-auto flex flex-col xl:flex-row-reverse">
       <motion.div 
-        className="bg-base-200 z-10 p-10 rounded-4xl shadow-lg relative flex flex-col justify-center items-center xl:mt-0 xl:absolute xl:top-1/10 xl:bg-transparent xl:text-base-100 rounded-4xl shadow-lg xl:shadow-none"
+        className="flex flex-col items-center text-center p-10 w-full xl:absolute xl:top-2/7 xl:w-1/3 bg-base-200 rounded-4xl shadow-lg z-10 mb-5 xl:mb-0 xl:left-10"
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.3 }}
@@ -16,7 +16,7 @@ export default function EventsHomePage() {
         <p className="text-lg text-center xl:w-[375px]">
           Check out past events that Limo Butler Pte Ltd has been a part of, showcasing our premium limousine services at some of Singapore's most prominent international events.
         </p>
-        <Link to="/events" className="btn xl:btn-neutral mt-3 btn-primary">
+        <Link to="/events" className="btn mt-3 btn-primary">
           View Events
         </Link>
       </motion.div>
