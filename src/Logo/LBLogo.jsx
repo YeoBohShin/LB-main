@@ -4,7 +4,7 @@ export default function LBLogo() {
         <img
             src='./Logo.png'
             alt="Limo Banner"
-            className="w-full h-auto max-h-[80px] m-3"
+            className="w-full h-auto max-h-[80px] max-w-[210px] m-3"
         />
     );
 }
