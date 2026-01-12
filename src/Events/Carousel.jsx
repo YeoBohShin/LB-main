@@ -1,17 +1,23 @@
 import { useState, useRef, useEffect } from "react";
 
 const logos = [
-  { src: "./AirShow.jpg", alt: "Singapore Airshow" },
+  { src: "./Aramco_Team_Series.png", alt: "Aramco Team Series" },
+  { src: "./Asia_Clean_Energy_Summit.png", alt: "Asia Clean Energy Summit" },
+  { src: "./Barclays_Singapore_Open.jpg", alt: "Barclays Singapore Open" },
   { src: "./IMDEX.jpg", alt: "IMDEX" },
-  { src: "./F1.jpg", alt: "Formula 1" },
-  { src: "./Golf.jpg", alt: "Golf" },
-  { src: "./SG_Water_Week.jpg", alt: "Singapore Water Week" },
-  { src: "./WorldHealthSummit.jpg", alt: "World Health Summit" },
-  { src: "./EnergyWeek.jpg", alt: "Energy Week" },
-  { src: "./MediaCorp.jpg", alt: "MediaCorp" },
-  { src: "./DBAccessAsia.jpeg", alt: "DB Access Asia" },
-  { src: "./Porsche.jpeg", alt: "Porsche" },
-  { src: "./LongGolf.jpeg", alt: "Long Golf" },
+  { src: "./LivGolf.png", alt: "LivGolf" },
+  { src: "./Moutai_Singapore_Open.png", alt: "Moutai Singapore Open" },
+  { src: "./Porsche.png", alt: "Porsche" },
+  { src: "./Screen_Singapore.jpg", alt: "Screen Singapore" },
+  { src: "./Singapore_Airshow.png", alt: "Singapore Airshow" },
+  { src: "./Singapore_Arts_Festival.jpg", alt: "Singapore Arts Festival" },
+  { src: "./Singapore_International_Cyber_Week.jpg", alt: "Singapore International Cyber Week" },
+  { src: "./Singapore_International_Energy_Week.png", alt: "Singapore International Energy Week" },
+  { src: "./Singapore_International_Water_Week.png", alt: "Singapore International Water Week" },
+  { src: "./SMBC_Singapore_Open.png", alt: "SMBC Singapore Open" },
+  { src: "./Women_Tennis_Association.png", alt: "Women Tennis Association" },
+  { src: "./World_Cities_Summit.png", alt: "World Cities Summit" },
+  { src: "./World_Table_Tennis.png", alt: "World Table Tennis" }
 ];
 
 export default function Carousel() {
@@ -129,7 +135,7 @@ export default function Carousel() {
                 <img
                   src={logo.src}
                   alt={logo.alt}
-                  className="h-32 object-contain"
+                  className="h-32 object-contain bg-white p-4 rounded-2xl shadow-md"
                 />
               </div>
             ))}

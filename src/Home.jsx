@@ -23,7 +23,7 @@ export default function Home() {
           Your Preferred Singapore Limousine Services Provider
         </motion.p>
         <img
-          src="./Homepage2.jpeg"
+          src="./Homepage.jpeg"
           alt="Limo"
           className="w-full h-full rounded-4xl xl:rounded-none"
         />
