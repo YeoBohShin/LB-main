@@ -10,7 +10,7 @@ export default function AboutUsHomePage() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ type: "spring", stiffness: 50, damping: 20, duration: 0.8 }}
         >
-            <h1 className="text-3xl md:text-5xl font-bold mb-5">Limo Butler Pte Ltd</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-5">Limo Butler Pte Ltd</h1>
             <p className="text-lg mb-5 text-justify">
                 At Limo Butler Pte Ltd, we are more than just a limousine service. 
                 With years of proven experience supporting high-profile corporate 

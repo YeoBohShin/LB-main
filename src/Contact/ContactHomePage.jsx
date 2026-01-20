@@ -12,7 +12,7 @@ export default function ContactHomePage() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ type: "spring", stiffness: 50, damping: 20, duration: 0.8 }}
         >
-            <h2 className="text-3xl mb-4">Get in Touch</h2>
+            <h1 className="text-4xl mb-4">Get in Touch</h1>
             <p className="mb-5">
               We're here to elevate your travel experience with our premium limousine
               services.

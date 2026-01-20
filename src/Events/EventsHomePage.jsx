@@ -12,7 +12,7 @@ export default function EventsHomePage() {
         viewport={{ once: true, amount: 0.3 }}
         transition={{ type: "spring", stiffness: 50, damping: 20, duration: 0.8 }}
         >
-        <h1 className="text-5xl mb-3">Events</h1>
+        <h1 className="text-4xl mb-3">Events</h1>
         <p className="text-lg text-center xl:w-[375px]">
           Check out past events that Limo Butler Pte Ltd has been a part of, showcasing our premium limousine services at some of Singapore's most prominent international events.
         </p>

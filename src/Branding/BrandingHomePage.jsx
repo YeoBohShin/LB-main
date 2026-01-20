@@ -13,7 +13,7 @@ export default function BrandingHomePage() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ type: "spring", stiffness: 50, damping: 20, duration: 0.8 }}
           >
-          <h1 className="text-4xl font-bold mb-4">Branding</h1>
+          <h1 className="text-4xl mb-4">Branding</h1>
           <p>
             Want your logo rolling around town?
           </p>
