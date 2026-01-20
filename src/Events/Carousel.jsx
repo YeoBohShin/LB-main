@@ -109,7 +109,7 @@ export default function Carousel() {
 
 
   return (
-    <div className="w-full bg-base-200 py-8 overflow-hidden mb-8">
+    <div className="w-full bg-base-200 py-8 overflow-hidden mb-8 relative top-20">
       <h2 className="text-center text-2xl font-bold mb-6">
         Events We've Served
       </h2>
