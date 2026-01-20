@@ -10,7 +10,7 @@ export default function Contact() {
     <>
       <div className="flex flex-col xl:flex-row min-h-screen text-base-100 justify-center">
         <div className="flex flex-col m-10 max-w-2xl justify-top">
-          <h1 className="text-3xl m-5">Limo Butler Pte Ltd</h1>
+          <h1 className="text-4xl m-5">Limo Butler Pte Ltd</h1>
           <p className="text-lg m-5">
             Feel free to reach out to us for any inquiries or feedback. 
             We are here to assist you with your limousine service needs.
