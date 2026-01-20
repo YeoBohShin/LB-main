@@ -20,7 +20,7 @@ export default function Home() {
           initial={{ x: "100vw", opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ type: "spring", stiffness: 80, damping: 18, duration: 0.6 }}>
-          Your Preferred Singapore Limousine Services Provider
+          Your Preferred Singapore Limousine Service Provider
         </motion.p>
         <img
           src="./Homepage.jpeg"

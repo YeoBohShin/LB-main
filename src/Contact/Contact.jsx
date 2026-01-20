@@ -22,17 +22,20 @@ export default function Contact() {
             </a>
           </div>
           <div className="text-lg m-5 flex flex-row">
-            <strong className="mr-3">Phone: </strong>
+            <strong className="mr-3">Phone & Mobile: </strong>
             <div className="flex flex-col">
               <p>
                 +65 6509 9746
+              </p>
+              <p>
+                +65 9139 9782
               </p>
             </div>
           </div>
           <div className="text-lg m-5 flex flex-row mb-0">
             <strong className="mr-3">Address: </strong>
             <p>
-              33 Ubi Avenue 3, VERTEX, #05-67, Singapore 408868
+              33 Ubi Avenue 3<br /># 05-67 Vertex<br />Singapore 408868
             </p>
           </div>
         </div>
